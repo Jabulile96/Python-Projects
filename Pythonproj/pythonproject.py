@@ -9,10 +9,11 @@ print (average_of_three(5,2,3))
 
 #Goodbye
 
-def say_goodbye(name):
-    print('Goodbye {}'.format(name))
 
-say_goodbye("Jabulile")
+def say_goodbye(name):
+    return 'Goodbye {}'.format(name)
+
+print(say_goodbye('Jabulile'))
 
 #Palidrome
 
