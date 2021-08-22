@@ -28,7 +28,7 @@ def is_palindrome(word):
         return True
     else:
         return False
-word = raw_input("Enter a word: ")
+word =input("Enter a word: ")
 print(is_palindrome(word))
 
 #Doubler
