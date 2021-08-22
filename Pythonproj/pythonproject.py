@@ -23,7 +23,7 @@ def is_palindrome(word):
     reverse_word =""
     while(i>=0):
         reverse_word = reverse_word+upperWord[i]
-        i= i=i-1
+        i=i-1
     if(reverse_word==upperWord):
         return True
     else:
