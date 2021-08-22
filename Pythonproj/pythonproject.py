@@ -31,6 +31,22 @@ def is_palindrome(word):
 word =input("Enter a word: ")
 print(is_palindrome(word))
 
+#Alternatively
+
+def is_palindrome(word):
+    upperWord= word.upper()
+    i =len(word)-1
+    reverse_word =""
+    while(i>=0):
+        reverse_word = reverse_word+upperWord[i]
+        i=i-1
+    if(reverse_word==upperWord):
+        return True
+    else:
+        return False
+#word =input("Enter a word: ")
+print(is_palindrome('civic))
+
 #Doubler
 
 def doubler(numbers):
